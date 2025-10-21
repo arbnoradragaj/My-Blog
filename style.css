@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  color: black;
+  margin-left: 20px;
+  margin-top: -20px;
+  margin-right: 20px;
+}
+header {
+  background: linear-gradient(135deg, #777cdc, #7467c5, #4d5997, #6747a3);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 20px 0 28px;
+  border-radius: 6px;
+}
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.search-form input {
+  padding: 8px;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  width: 200px;
+  border-left: 4px solid #f59e0b;
+}
+.search-form button {
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.blog-post {
+  border: 1px solid #e7e7f1;
+  border-radius: 8px;
+  padding: 20px 20px;
+}
+main .blog-post:nth-child(1) {
+  flex: 1 1 calc(66% - 11px);
+  border: 2px solid #667eea;
+  background: #f1f5ff;
+}
+main .blog-post:nth-child(2) {
+  flex: 1 1 calc(34% - 11px);
+}
+main .blog-post:nth-child(3) {
+  flex: 1 1 100%;
+  background: #f9fafb;
+}
+.blog-post h2 {
+  font-size: 22px;
+  color: #764ba2;
+  margin-bottom: 6px;
+}
+.blog-post h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-post .meta {
+  color: #777;
+  font-size: 14px;
+  margin: 5px 0 10px;
+}
+.blog-post p {
+  margin-bottom: 8px;
+  line-height: 1.2em;
+}
+.read-more {
+  color: #764ba2;
+  font-weight: 700;
+  text-decoration: none;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 7px 10px;
+  border-radius: 100px;
+  background: #e0e7ff;
+  color: #4f2296;
+}
+.tag:nth-child(3) {
+  background: #fbbf24;
+  color: #78350f;
+}
+aside {
+  margin: 24px 0 36px;
+}
+.widget {
+  background: #f9fafb;
+  border: 1px solid #e7e7f1;
+  border-radius: 10px;
+  padding: 15px 18px 12px;
+}
+.widget h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.widget ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.widget li a {
+  display: block;
+  background: #f7f7fb;
+  border: 1px solid #f0f0f6;
+  padding: 14px 12px;
+  border-radius: 8px;
+  color: #6b6b86;
+  text-decoration: none;
+}
