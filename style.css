@@ -57,15 +57,15 @@ main {
   padding: 20px 20px;
 }
 main .blog-post:nth-child(1) {
-  flex: 1 1 calc(66% - 11px);
+  flex: 2;
   border: 2px solid #667eea;
   background: #f1f5ff;
 }
 main .blog-post:nth-child(2) {
-  flex: 1 1 calc(34% - 11px);
+  flex: 1;
 }
 main .blog-post:nth-child(3) {
-  flex: 1 1 100%;
+  flex-basis: 100%;
   background: #f9fafb;
 }
 .blog-post h2 {
